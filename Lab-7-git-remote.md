@@ -4,11 +4,14 @@
 
 repo-name: git-remote
 
-Put Screenshots here
+![create-new-project-gitlab](create-new-project-gitlab.png)
+
+
+![create-blank-project](create-blank-project.png)
 
 Public or private?
 
-Without any template or files, observe the commands
+![prive-repo-gitlab](prive-repo-gitlab.png)
 
 ### Step 2: Clone the newly created repo
 
@@ -47,7 +50,7 @@ git commit -m "feat: add simple app and test"
 git push
 ```
 
-Observe that every changes that we make is being pushed to the main repo, which is not good.
+Observe that every changes that we make is being pushed to the main repo, which is not good practice. Why?
 
 ### Step 5: Clean up (Optional)
 

@@ -29,7 +29,7 @@ git branch feature/login
 Make Additional changes on the `main` branch
 
 ```bash
-echo "Hello World from main Branch Again" >> file1.txt
+echo "Hello World from main Branch Again" >> main-file.txt
 cat main-file.txt
 git add .
 git commit -m "feat: second main branch change"
@@ -59,7 +59,7 @@ Observe that the newly made changes in the `feature/login` are not in the `main`
 ### Step 5: Merge the `feature/login` into the main branch
 
 ```bash
-git merge feature/login
+git merge feature/login # vim or nano will pop up
 ```
 
 ### Step 6: Observe
@@ -67,7 +67,7 @@ git merge feature/login
 Observe that the changes from `feature/login` are now in the `main` branch.
 
 ```bash
-git log --oneline
+git log --oneline --graph --all
 ```
 
 Observe the commit history of the repository.
